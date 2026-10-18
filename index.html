@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Med Reminder - Never Miss a Dose Again (Android App)</title>
+<meta name="description" content="Med Reminder for Android: smart medicine reminders, refill alerts, doctor appointments, blood pressure & sugar tracking. Free. Never miss a dose again.">
+<style>
+  :root { --teal:#0d9d8b; --teal-dark:#0a7f72; --ink:#1f2a37; --muted:#5b6b7b; --bg:#f4faf9; --card:#ffffff; }
+  * { box-sizing:border-box; margin:0; padding:0; }
+  body { font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Arial,sans-serif; color:var(--ink); background:var(--bg); line-height:1.6; }
+  .wrap { max-width:860px; margin:0 auto; padding:0 20px; }
+  header.hero { background:linear-gradient(135deg,#0d9d8b,#15b8a6); color:#fff; padding:56px 0 48px; text-align:center; }
+  header.hero img.appicon { width:128px; height:128px; border-radius:28px; box-shadow:0 8px 24px rgba(0,0,0,.25); background:#fff; }
+  header.hero h1 { font-size:2rem; margin:18px 0 6px; }
+  header.hero p.tag { font-size:1.1rem; opacity:.95; max-width:640px; margin:0 auto 22px; }
+  .play-badge { display:inline-block; background:#000; color:#fff; border:1px solid #444; border-radius:8px; padding:10px 22px; text-decoration:none; font-weight:600; }
+  .play-badge small { display:block; font-size:.7rem; font-weight:400; letter-spacing:1px; opacity:.8; }
+  .play-badge span { font-size:1.15rem; }
+  section { background:var(--card); border-radius:14px; padding:28px 30px; margin:26px 0; box-shadow:0 2px 10px rgba(13,157,139,.08); }
+  section h2 { color:var(--teal-dark); font-size:1.35rem; margin-bottom:14px; border-bottom:2px solid #e6f4f2; padding-bottom:8px; }
+  ul.feat { list-style:none; }
+  ul.feat li { padding:7px 0 7px 30px; position:relative; }
+  ul.feat li::before { content:"✔"; position:absolute; left:4px; color:var(--teal); font-weight:700; }
+  .shots { display:grid; grid-template-columns:repeat(auto-fill,minmax(150px,1fr)); gap:16px; margin-top:6px; }
+  .shots figure { text-align:center; }
+  .shots img { width:100%; border-radius:12px; border:1px solid #dfe9e8; box-shadow:0 2px 8px rgba(0,0,0,.08); }
+  .shots figcaption { font-size:.85rem; color:var(--muted); margin-top:6px; }
+  .shot-ph { aspect-ratio:9/19; border:2px dashed #b9d8d4; border-radius:12px; display:flex; align-items:center; justify-content:center; color:#8aa5a2; font-size:.85rem; background:#f7fcfa; }
+  footer { text-align:center; color:var(--muted); font-size:.85rem; padding:26px 0 40px; }
+  footer a { color:var(--teal-dark); }
+  .note { background:#fff8e1; border-left:4px solid #f5b301; padding:12px 16px; border-radius:8px; font-size:.9rem; margin:14px 0; }
+  @media (max-width:600px){ header.hero h1{font-size:1.5rem;} section{padding:22px 20px;} }
+</style>
+</head>
+<body>
+
+<header class="hero">
+  <div class="wrap">
+    <img class="appicon" src="icon.png" alt="Med Reminder app icon">
+    <h1>Med Reminder 1.12 for Android</h1>
+    <p class="tag">Never miss a dose again. Med Reminder is a simple, reliable medicine companion — dose reminders, refill alerts, doctor visits and health tracking, all in one clean app.</p>
+    <!-- TODO: replace # with the real Google Play store URL after publishing -->
+    <a class="play-badge" href="#"><small>GET IT ON</small><span>▶ Google Play</span></a>
+  </div>
+</header>
+
+<div class="wrap">
+
+<section>
+  <h2>It has everything you need</h2>
+  <ul class="feat">
+    <li>Smart dose reminders — with an advance heads-up before every dose</li>
+    <li>One-tap “Mark as Taken” — your adherence is tracked automatically</li>
+    <li>Refill reminders with low-stock alerts (running low turns red)</li>
+    <li>Flexible schedules — daily times or every-N-days</li>
+    <li>Doctor appointments with clinic, phone number &amp; one-tap calling</li>
+    <li>Blood pressure &amp; blood sugar logging with trend charts</li>
+    <li>Shareable health reports for your doctor or family</li>
+    <li>Private by design — all data stays on your phone, no account needed</li>
+  </ul>
+</section>
+
+<section>
+  <h2>Dose Schedules</h2>
+  <ul class="feat">
+    <li>Remind at specific times every day (e.g. 8:00 AM, 1:30 PM, 9:00 PM)</li>
+    <li>Repeat every N days (e.g. every 2 days, every 3 days)</li>
+    <li>Get an advance reminder before each dose (e.g. 1 hour early)</li>
+    <li>Turn notifications on or off per medicine</li>
+    <li>Master switches for dose, advance, refill and doctor reminders</li>
+  </ul>
+</section>
+
+<section>
+  <h2>Main Features</h2>
+  <ul class="feat">
+    <li>Clean, easy interface — made for everyday use by anyone</li>
+    <li>Today’s doses at a glance: pending first, taken last</li>
+    <li>Mark a medicine as taken straight from the reminder notification</li>
+    <li>Quick refill flow updates your stock in seconds</li>
+    <li>Save doctors with specialty, clinic and phone number</li>
+    <li>Upcoming &amp; past appointments with one-tap reschedule</li>
+    <li>Day-of reminders so you never miss a checkup</li>
+    <li>Log BP and sugar readings with automatic status indicators</li>
+    <li>Charts show how your numbers change over time</li>
+    <li>“Your Progress” tab: daily streak, adherence %, weekly chart</li>
+    <li>Share a text health report with your doctor in one tap</li>
+  </ul>
+</section>
+
+<section>
+  <h2>General</h2>
+  <ul class="feat">
+    <li>Notifications are local — no internet connection required</li>
+    <li>Works fully offline; app doesn’t need to be open for reminders</li>
+    <li>No sign-up, no account — your data never leaves your phone</li>
+    <li>Universal app with full support for phones and tablets</li>
+    <li>English interface</li>
+  </ul>
+</section>
+
+<section>
+  <h2>Free Version</h2>
+  <ul class="feat">
+    <li>Med Reminder is completely free — every feature included</li>
+    <li>Supported by unobtrusive ads (no paid version, no subscriptions)</li>
+  </ul>
+</section>
+
+<section>
+  <h2>Support</h2>
+  <p>Questions, suggestions or problems? Email us at
+  <!-- TODO: replace with the real support email address -->
+  <a href="mailto:ads.haider.dm@gmail.com">ads.haider.dm@gmail.com</a> — we read every message.</p>
+</section>
+
+<section>
+  <h2>System Requirements</h2>
+  <ul class="feat">
+    <li>Compatible with phones and tablets</li>
+    <li>Requires Android 7.0 (API 24) or later</li>
+    <li>Size: about 30&nbsp;MB</li>
+  </ul>
+</section>
+
+<section>
+  <h2>Phone Screenshots</h2>
+  <p style="color:var(--muted);font-size:.9rem;margin-bottom:14px;">Real screenshots from the app, with sample data:</p>
+  <div class="shots">
+    <figure><img src="screenshots/shot-home.png" alt="Med Reminder – Home"><figcaption>Home</figcaption></figure>
+    <figure><img src="screenshots/shot-medicines.png" alt="Med Reminder – Medicines"><figcaption>Medicines</figcaption></figure>
+    <figure><img src="screenshots/shot-doctors.png" alt="Med Reminder – Doctors"><figcaption>Doctors</figcaption></figure>
+    <figure><img src="screenshots/shot-progress.png" alt="Med Reminder – Your Progress"><figcaption>Your Progress</figcaption></figure>
+    <figure><img src="screenshots/shot-health.png" alt="Med Reminder – Health"><figcaption>Health</figcaption></figure>
+    <figure><img src="screenshots/shot-reminder.png" alt="Med Reminder – Dose reminder notification"><figcaption>Reminder</figcaption></figure>
+  </div>
+</section>
+
+</div>
+
+<footer>
+  <div class="wrap">
+    © 2026 Med Reminder · <a href="privacy-policy.html">Privacy Policy</a> · Made for a healthier routine
+  </div>
+</footer>
+
+</body>
+</html>
